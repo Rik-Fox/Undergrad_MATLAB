@@ -1,0 +1,15 @@
+clear variables
+clc
+t = linspace(0,30,1024); 	    % Indepentant variable
+
+a = 20;
+c = sin(5*t + 1);
+d = ;
+e = exp((-t.^2)./5);
+y = a*e.*c;
+
+figure (1)                  % open a figure window
+plot(t,y)                   % plot (t,y)
+grid on                     % turn on the grid
+xlabel('t')                 % label the x axis
+ylabel('y')                 % label the y axis   
